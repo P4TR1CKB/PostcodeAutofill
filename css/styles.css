@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+    background-color: #f0f0f2;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#container {
+	margin: 5em auto;
+	width: 80%;
+}
+
+.dropdown {
+	margin: 2em auto;
+}
+
+.formular {
+	margin: 2em auto;
+}
+
+
+

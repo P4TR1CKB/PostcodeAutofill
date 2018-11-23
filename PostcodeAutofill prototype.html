@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+	    <title>PostcodeAutofill prototype</title>
+	    <meta charset="utf-8" />
+	    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1" />
+	    <link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<div id="container">
+			<select class="dropdown" name="new_land" id="new_land">
+			  <option value="AUSTRIA">AUSTRIA</option>
+			  <option value="BELGIUM">BELGIUM</option>
+			  <option value="DEUTSCHLAND">DEUTSCHLAND</option>
+			  <option value="FRANCE">FRANCE</option>
+			  <otpion value="ITALY">ITALY</otpion>
+			  <option value="NETHERLANDS">NETHERLANDS</option>
+			  <option value="POLAND">POLAND</option>
+			  <option value="SCHWITZERLAND">SWITZERLAND</option>
+			  <option value="UNITED KINGDOM">UNITED KINGDOM</option>
+			  <option value="UNITED STATES">UNITED STATES</option>
+			</select>
+			<form class="formular" name="adress" id="adress">
+				PLZ<br>
+				<input type="text" name="postcode" id="postcode" onblur="PostcodeAutofill();"><br><br>
+				Ort<br>
+				<input type="text" name="placename" id="placename"><br>
+			</form>
+		</div>
+		<script src="scripts/PostcodeAutofill.js"></script>
+	</body>
+</html>
