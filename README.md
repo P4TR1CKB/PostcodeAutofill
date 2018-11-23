@@ -1,2 +1,2 @@
 # PostcodeAutofill
-A simple sample of using the geoNames API to autofill a places name in dependency of a postcode
+A simple sample of using javascript and the geoNames REST API to autofill a places name in dependency of a postcode
